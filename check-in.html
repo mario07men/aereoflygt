@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Check-In de Aerolínea</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+ 
+<body>
+    <header>
+        <img src="imag.png" alt="Logo de aereoflygt">
+        <h1> Aereofly<span class="text-sec">gt</span> </h1>
+    </header>
+   
+    <div class="container">
+        <h2 class="title">Check-In de Vuelo</h2>
+        <form action="mendozavmario69@gmail.com" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="numero-vuelo">Número de Vuelo:</label>
+                <input type="text" id="numero-vuelo" name="numero-vuelo" required>
+            </div>
+            <div class="form-group">
+                <label for="fecha-vuelo">Fecha del Vuelo:</label>
+                <input type="date" id="fecha-vuelo" name="fecha-vuelo" required>
+            </div>
+            <div class="form-group">
+                <label for="asiento">Selección de Asiento:</label>
+                <select id="asiento" name="asiento" required>
+                    <option value="" disabled selected>Seleccione su asiento</option>
+                    <option value="1A">1A</option>
+                    <option value="1B">1B</option>
+                    <option value="1C">1C</option>
+                    <option value="2A">2A</option>
+                    <option value="2B">2B</option>
+                    <option value="2C">2C</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="equipaje">Equipaje:</label>
+                <select id="equipaje" name="equipaje" required>
+                    <option value="" disabled selected>Seleccione su equipaje</option>
+                    <option value="mano">Equipaje de mano</option>
+                    <option value="bodega">Equipaje de bodega</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn">Check-In</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 AEREOFLYGT. Todos los derechos reservados.</p>
+    </div>
+</body>
+</head>
+</html>

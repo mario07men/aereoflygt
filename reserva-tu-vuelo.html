@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Reserva tu vuelo</title>
+
+</head>
+<body>
+    <header>
+        <img src="imag.png" alt="Logo de aereoflygt">
+        <h1> Aereofly<span class="text-sec">gt</span> </h1>
+    </header>
+    <h1>Reserva tu vuelo</h1>
+    <form action="/confirmar_reserva" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+        
+        <label for="origen">Origen:</label>
+        <input type="text" id="origen" name="origen" required><br><br>
+        
+        <label for="destino">Destino:</label>
+        <input type="text" id="destino" name="destino" required><br><br>
+        
+        <label for="fecha">Fecha de vuelo:</label>
+        <input type="date" id="fecha" name="fecha" required><br><br>
+        
+        <label for="pasajeros">Número de pasajeros:</label>
+        <input type="number" id="pasajeros" name="pasajeros" min="1" max="10" required><br><br>
+        
+        <input type="submit" value="Reservar">
+    </form>
+</body>
+</html>

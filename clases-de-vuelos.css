@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Estilos para el título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las clases de vuelos */
+.flight-class {
+    background-color:var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para cada clase de vuelo específica */
+.economic {
+    border: 2px solid #ffa500; /* Color naranja */
+}
+
+.business {
+    border: 2px solid #007bff; /* Color azul */
+}
+
+.first-class {
+    border: 2px solid #28a745; /* Color verde */
+}
+
+/* Estilos para los títulos de clase */
+.flight-class h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Estilos para el contenido de clase */
+.flight-class p {
+    color: #666;
+}
+
+.class-image {
+    flex: 1;
+}
+
+.class-image img {
+    width: 200px;
+    height: 200px;
+    height: auto;
+    border-radius: 20px;
+}

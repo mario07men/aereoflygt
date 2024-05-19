@@ -1,0 +1,37 @@
+.flight-offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  .flight-info {
+    flex: 1;
+  }
+  
+  .flight-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .flight-info p {
+    margin: 0;
+  }
+  
+  .flight-info strong {
+    font-weight: bold;
+  }
+  
+  .flight-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .flight-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }

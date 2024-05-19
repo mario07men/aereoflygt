@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+.airline {
+    margin-bottom: 30px;
+}
+.airline img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+.baggage-info {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+ footer {
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    
+}
